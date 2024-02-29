@@ -3,6 +3,8 @@
     <style name="Base.Theme.FoodMarket" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/holo_orange_light</item>
     </style>
 
     <style name="Theme.FoodMarket" parent="Base.Theme.FoodMarket" />

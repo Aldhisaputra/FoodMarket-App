@@ -15,15 +15,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splashscreen" />
+        app:srcCompat="@drawable/ic_logo_apps" />
 
     <TextView
         android:id="@+id/textView"
+        style="@style/TextView.PoppinsNormal32sp020202"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="FoodMarket"
-        android:textColor="@color/black"
-        android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

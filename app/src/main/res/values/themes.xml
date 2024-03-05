@@ -8,4 +8,42 @@
     </style>
 
     <style name="Theme.FoodMarket" parent="Base.Theme.FoodMarket" />
+    
+    <style name="TextView"/>
+
+    <style name="TextView.PoppinsNormal32sp020202">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">#020202</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal16sp020202">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">#020202</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="EditText"/>
+
+    <style name="EditText.PoppinsNormal14sp8D92A3">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">#8D92A3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Button"/>
+
+    <style name="Button.Primary">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">#020202</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/shape_rectangle_8_ffc700</item>
+    </style>
+
+    <style name="Button.Secondary">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/shape_rectangle_8_8d92a3</item>
+    </style>
 </resources>

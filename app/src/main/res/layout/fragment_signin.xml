@@ -15,23 +15,25 @@
         style="@style/TextView.PoppinsNormal16sp020202"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email Addres" />
+        android:text="@string/email_addres" />
 
     <EditText
         android:layout_marginTop="6dp"
         android:padding="10dp"
         style="@style/EditText.PoppinsNormal14sp8D92A3"
         android:background="@drawable/shape_rectangle_outline_8_020202"
-        android:hint="Type your email address"
+        android:hint="@string/type_your_email_address"
+        android:inputType="textEmailAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="48dp"
+        android:autofillHints="emailAddress"/>
 
     <TextView
         android:layout_marginTop="16dp"
         style="@style/TextView.PoppinsNormal16sp020202"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password" />
+        android:text="@string/password"/>
 
     <EditText
         android:layout_marginTop="7dp"
@@ -39,23 +41,26 @@
         style="@style/EditText.PoppinsNormal14sp8D92A3"
         android:background="@drawable/shape_rectangle_outline_8_020202"
         android:inputType="textPassword"
-        android:hint="Type your password"
+        android:hint="@string/type_your_password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="48dp"
+        android:autofillHints="password"/>
 
     <Button
-        android:text="Sign In"
+        android:text="@string/sign_in"
         style="@style/Button.Primary"
         android:layout_marginTop="24dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
 
     <Button
-        android:text="Create New Account"
+        android:text="@string/create_new_account"
         style="@style/Button.Secondary"
         android:layout_marginTop="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>

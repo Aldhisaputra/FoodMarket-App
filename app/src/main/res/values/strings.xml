@@ -2,4 +2,10 @@
     <string name="app_name">Food Market</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_addres">Email Addres</string>
+    <string name="type_your_email_address">Type your email address</string>
+    <string name="password">Password</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create New Account</string>
 </resources>

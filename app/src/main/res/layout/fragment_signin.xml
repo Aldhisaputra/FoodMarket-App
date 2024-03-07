@@ -52,7 +52,8 @@
         android:layout_marginTop="24dp"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
 
     <Button
         android:text="@string/create_new_account"
@@ -60,7 +61,8 @@
         android:layout_marginTop="16dp"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
 
 
 </LinearLayout>

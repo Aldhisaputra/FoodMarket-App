@@ -8,4 +8,6 @@
     <string name="type_your_password">Type your password</string>
     <string name="sign_in">Sign In</string>
     <string name="create_new_account">Create New Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="type_your_full_name">Type Your Full Name</string>
 </resources>

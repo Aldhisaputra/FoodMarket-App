@@ -10,4 +10,11 @@
     <string name="create_new_account">Create New Account</string>
     <string name="full_name">Full Name</string>
     <string name="type_your_full_name">Type Your Full Name</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="type_your_city">Type Your City</string>
+    <string name="city">City</string>
+    <string name="type_your_house_number">Type Your House Number</string>
+    <string name="house_number">House Number</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
 </resources>

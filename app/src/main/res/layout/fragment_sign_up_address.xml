@@ -22,14 +22,14 @@
             style="@style/TextView.PoppinsNormal16sp020202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Phone Number" />
+            android:text="@string/phone_number" />
 
         <EditText
             android:layout_marginTop="6dp"
             android:padding="10dp"
             style="@style/EditText.PoppinsNormal14sp8D92A3"
             android:background="@drawable/shape_rectangle_outline_8_020202"
-            android:hint="Phone Number"
+            android:hint="@string/phone_number"
             android:layout_width="match_parent"
             android:layout_height="48dp"/>
 
@@ -38,7 +38,7 @@
             style="@style/TextView.PoppinsNormal16sp020202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Address" />
+            android:text="@string/address" />
 
         <EditText
             android:layout_marginTop="6dp"
@@ -55,19 +55,35 @@
             style="@style/TextView.PoppinsNormal16sp020202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="House Number"/>
+            android:text="@string/house_number"/>
 
         <EditText
             android:layout_marginTop="7dp"
             android:padding="10dp"
             style="@style/EditText.PoppinsNormal14sp8D92A3"
             android:background="@drawable/shape_rectangle_outline_8_020202"
-            android:hint="Type Your House Number"
+            android:hint="@string/type_your_house_number"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city"/>
+
+        <EditText
+            android:layout_marginTop="7dp"
+            android:padding="10dp"
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:hint="@string/type_your_city"
             android:layout_width="match_parent"
             android:layout_height="48dp" />
 
         <Button
-            android:text="Continue"
+            android:text="@string/sign_up_now"
             style="@style/Button.Primary"
             android:layout_marginTop="24dp"
             android:layout_width="320dp"

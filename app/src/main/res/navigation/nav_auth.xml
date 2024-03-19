@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@layout/fragment_signin"
+    android:id="@+id/nav_auth">
+
+    <fragment
+        android:id="@+id/fragmentSignIn"
+        android:name="com.example.foodmarket.ui.SigninFragment"
+        tools:layout="@layout/fragment_signin">
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentSignUp"
+        android:name="com.example.foodmarket.ui.SignUpFragment"
+        tools:layout="@layout/fragment_sign_up">
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentSignUpAddress"
+        android:name="com.example.foodmarket.ui.SignUpAddressFragment"
+        tools:layout="@layout/fragment_sign_up_address">
+    </fragment>
+
+
+
+</navigation>

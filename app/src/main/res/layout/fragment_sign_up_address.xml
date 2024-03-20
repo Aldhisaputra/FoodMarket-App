@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:orientation="vertical"
-    tools:context=".ui.SigninFragment">
+    tools:context=".ui.SignInFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

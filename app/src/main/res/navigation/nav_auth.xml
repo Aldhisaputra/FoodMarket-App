@@ -2,12 +2,12 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@layout/fragment_signin"
+    app:startDestination="@id/fragmentSignIn"
     android:id="@+id/nav_auth">
 
     <fragment
         android:id="@+id/fragmentSignIn"
-        android:name="com.example.foodmarket.ui.SigninFragment"
+        android:name="com.example.foodmarket.ui.SignInFragment"
         tools:layout="@layout/fragment_signin">
     </fragment>
 

@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.foodmarket.R
 
 
-class SigninFragment : Fragment() {
+class SignInFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

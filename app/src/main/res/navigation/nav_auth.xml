@@ -9,12 +9,18 @@
         android:id="@+id/fragmentSignIn"
         android:name="com.example.foodmarket.ui.SignInFragment"
         tools:layout="@layout/fragment_signin">
+
+        <action android:id="@+id/action_signup"
+            app:destination="@id/fragmentSignUp"/>
     </fragment>
 
     <fragment
         android:id="@+id/fragmentSignUp"
         android:name="com.example.foodmarket.ui.SignUpFragment"
         tools:layout="@layout/fragment_sign_up">
+
+        <action android:id="@+id/action_signup_address"
+            app:destination="@id/fragmentSignUpAddress"/>
     </fragment>
 
     <fragment

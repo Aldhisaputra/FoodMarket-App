@@ -47,6 +47,7 @@
         android:autofillHints="password"/>
 
     <Button
+        android:id="@+id/btnSignIn"
         android:text="@string/sign_in"
         style="@style/Button.Primary"
         android:layout_marginTop="24dp"
@@ -56,6 +57,7 @@
         android:textAllCaps="false"/>
 
     <Button
+        android:id="@+id/btnSignUp"
         android:text="@string/create_new_account"
         style="@style/Button.Secondary"
         android:layout_marginTop="16dp"

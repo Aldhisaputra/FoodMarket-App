@@ -10,3 +10,23 @@ class AuthActivity : AppCompatActivity() {
         setContentView(R.layout.activity_auth)
     }
 }
+//override fun onActivityCreated(savedInstanceState: Bundle?) {
+//        super.onActivityCreated(savedInstanceState)
+//
+//        btnSignup.setOnClickListener {
+//            val signup = Intent(activity, AuthActivity::class.java)
+//            signup.putExtra("page_request", 2)
+//            startActivity(signup)
+//        }
+//    }
+
+
+// val pageRequest = intent.getIntExtra("page_request", 0)
+//        if (pageRequest == 2) {
+//            val navOptions = NavOptions.Builder()
+//                .setPopUpTo(R.id.fragmentSignIn, true)
+//                .build()
+//
+//            Navigation.findNavController(findViewById(R.id.authHostFragment))
+//                .navigate(R.id.action_signup, null,navOptions)
+//        }
